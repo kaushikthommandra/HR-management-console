@@ -1,5 +1,4 @@
 # ReportGarden HR Management Console
----
 
 ## Requirement
 
