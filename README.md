@@ -58,3 +58,5 @@ Name | Skills
 Ashrith | 6
 Vamshi|5
 Adil |3
+
+> NOTE: In case two employees have the same score they should be displayed in alpahbetical order
