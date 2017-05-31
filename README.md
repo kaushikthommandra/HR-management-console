@@ -52,8 +52,9 @@ We will have to add the following abilities to the application:
 When we are able to create employess with selected skills, team lead and projects. We want to list employees under a team lead sorted by the number of skills they have. Here is an example:
 
 Team Lead: Achou
-|Name|Skills|
--------------
-|Ashrith|6|
-|Vamshi|5|
-|Adil|3|
+
+Name | Skills
+---- | ------
+Ashrith | 6
+Vamshi|5
+Adil |3
