@@ -1,0 +1,7 @@
+<h1> Welcome to HR Managment Console, Click on the name to Get details </h1>
+
+<ul>
+  <%@data.each do |person|%>
+  <li><a href="/employees/<%=person[:id]%>"><%= person[:name]%></a></li>
+  <%end%>
+</ul>

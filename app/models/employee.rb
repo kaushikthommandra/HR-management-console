@@ -6,12 +6,83 @@ class Employee < ApplicationRecord
   def self.all
     return [
       {
-        name: 'Ashok Varma',
+        id: 1,
+        name: 'AshokVarma',
         designation: 'CEO',
-        age: '45', # :P
+        age: '45',
         date_of_joining: '01-04-2011'
       },
-      # TODO: add more people here
+      {
+        id: 2,
+        name: 'KaushikThommandra',
+        designation: 'FSD',
+        age: '22',
+        date_of_joining: '01-06-2017'
+      },
+      {
+        id: 3,
+        name: 'ArvindVeda',
+        designation: 'FSD',
+        age: '21',
+        date_of_joining: '01-06-2017'
+      },
+      {
+        id: 4,
+        name: 'PhaniVVS',
+        designation: 'FSD',
+        age: '26',
+        date_of_joining: '01-06-2017'
+      },
+      {
+        id: 5,
+        name: 'AniketMane',
+        designation: 'FSD',
+        age: '25',
+        date_of_joining: '01-06-2017'
+      },
+      {
+        id: 6,
+        name: 'Rohan',
+        designation: 'FSD',
+        age: '24',
+        date_of_joining: '01-06-2017'
+      },
+      {
+        id: 7,
+        name: 'Priyanshu',
+        designation: 'abc',
+        age: '23',
+        date_of_joining: '01-06-2017'
+      },
+      {
+        id: 8,
+        name: 'Manas',
+        designation: 'abc',
+        age: '22',
+        date_of_joining: '01-06-2017'
+      },
+      {
+        id: 9,
+        name: 'Shravya',
+        designation: 'abc',
+        age: '21',
+        date_of_joining: '01-04-2011'
+      },
+      {
+        id: 10,
+        name: 'Phani',
+        designation: 'abc',
+        age: '22', # :P
+        date_of_joining: '01-04-2011'
+      },
+      {
+        id: 11,
+        name: 'ankit',
+        designation: 'abc',
+        age: '23',
+        date_of_joining: '01-06-2017'
+      },
+
     ]
   end
 end
