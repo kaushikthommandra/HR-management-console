@@ -2,6 +2,6 @@
 
 <ul>
   <%@data.each do |person|%>
-  <li><a href="/employees/<%=person[:id]%>"><%= person[:name]%></a></li>
+  <li><a href="/employees/<%=person[:id]%>"><%= person[:name].titleize%></a></li>
   <%end%>
 </ul>

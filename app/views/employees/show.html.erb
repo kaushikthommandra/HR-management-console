@@ -1,7 +1,8 @@
 <% x=  @data.select{|a| a[:id] == @id.to_i }%>
-<h1> Welcome to the user page of <%=x.first[:name] %> </h1>
+<h1> Welcome to the user page of <%=x.first[:name].titleize %> </h1>
 <table>
-  <tr> <td>Employee name</td> <td>-</td> <td><%=x.first[:name] %></td> </tr>
+  <tr> <td>Employee id</td> <td>-</td> <td><%=x.first[:id] %></td> </tr>
+  <tr> <td>Employee name</td> <td>-</td> <td><%=x.first[:name].titleize %></td> </tr>
   <tr> <td>Employee designation</td> <td>-</td> <td><%=x.first[:designation] %></td> </tr>
   <tr> <td>Employee age</td> <td>-</td> <td><%=x.first[:age] %></td> </tr>
   <tr> <td>Employee Date of joining</td> <td>-</td> <td><%=x.first[:date_of_joining] %></td> </tr>

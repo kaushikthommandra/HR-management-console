@@ -7,35 +7,35 @@ class Employee < ApplicationRecord
     return [
       {
         id: 1,
-        name: 'AshokVarma',
+        name: 'Ashok varma',
         designation: 'CEO',
         age: '45',
         date_of_joining: '01-04-2011'
       },
       {
         id: 2,
-        name: 'KaushikThommandra',
+        name: 'Kaushik thommandra',
         designation: 'FSD',
         age: '22',
         date_of_joining: '01-06-2017'
       },
       {
         id: 3,
-        name: 'ArvindVeda',
+        name: 'Arvind Veda',
         designation: 'FSD',
         age: '21',
         date_of_joining: '01-06-2017'
       },
       {
         id: 4,
-        name: 'PhaniVVS',
+        name: 'Phani vvs',
         designation: 'FSD',
         age: '26',
         date_of_joining: '01-06-2017'
       },
       {
         id: 5,
-        name: 'AniketMane',
+        name: 'Aniket mane',
         designation: 'FSD',
         age: '25',
         date_of_joining: '01-06-2017'
